@@ -1,0 +1,19 @@
+html,
+body {
+  width: 100%;
+  font: 1em "Times New Roman", Times, serif;
+}
+
+.widget {
+  display: inline-grid;
+  width: 300px;
+  height: 600px;
+  margin: 1em 1em 1em 1em;
+  padding: .5rem;
+  background-color: lightblue;
+  overflow-wrap: anywhere;
+}
+
+.title {
+  font-weight: bold;
+}
