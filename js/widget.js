@@ -1,21 +1,17 @@
 /**
- * TODO:
- * Create a for loop to iterate over and create each story section.
- * i = story number
- * each dialog ID needs to be called.
+ * Citations:
+ * Used to create jQuery loading, CSS loading, and calling anonymous function
  * 
- * for (i = 0; i < 5; i++) {
- *    Replace numbers with i, add code from below
- * }
- * 
- * Issues with iterating the loop. hard coding for now.
+ * Alex Marandon
+ * How to build a web widget (using jQuery)
+ * Article link: https://alexmarandon.com/articles/web_widget_jquery/
  */
 
 /**
- * Used to create jQuery loading, CSS loading, and calling anonymous function
- * https://alexmarandon.com/articles/web_widget_jquery/
+ * TODO:
+ * Add more styling to each news section (added TODO in CSS file)
+ * remove extra text from each json call (title, url, domain, permalink)
  */
-
 
 (function () {
 
@@ -72,9 +68,20 @@
       css_link.appendTo('head');
     });
   }
- 
 
-  /* TODO: Listed above */
+
+  /**
+   * TODO:
+   * Create a for loop to iterate over and create each story section.
+   * i = story number
+   * each dialog ID needs to be called.
+   * 
+   * for (i = 0; i < 5; i++) {
+   *    Replace numbers with i, add code from below
+   * }
+   * 
+   * Issues with iterating the loop. hard coding for now.
+   */
 
   // for (i = 0; i < 5; i++) {
   //   var newsStory = $("#dialog" + i + "");
