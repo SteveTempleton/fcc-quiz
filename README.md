@@ -34,6 +34,6 @@ This should be written in Javascript and be able to run in the console.
 Recommended Time Allowance:  30 minutes
 
 ## Files:
-zerocool.js
+jsZeroCool.js 
 
 Completed work can be delivered via Github (preferred), CodePen, compressed files or service of your choice. 
