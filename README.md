@@ -5,6 +5,9 @@
 Break the article design in the attached png file (HTML_CSS Quiz) into a functional web page using css grid for both mobile and desktop layouts.  Since this is a flat file and not a layered Photoshop/Sketch, document font choices, colors, etc can be chosen to match as closely as possible. Use any text you'd like, as long as it fills in about the same amount of text as the design.  
 
 Recommended Time Allowance:  2 hours or less
+## Files:
+design.html
+css/style.css
 
 # Custom Javascript Widget
 
@@ -16,6 +19,11 @@ Design is up to you.  Creativity is encouraged.
 
 Recommended Time Allowance:  2 hours or less
 
+## Files:
+widget.html
+css/widgetstyle.css
+js/widget.js
+
 # ZeroCool
 
 Write a program that prints the numbers from 1 to 100.
@@ -24,5 +32,8 @@ For numbers which are multiples of both three and five print "ZeroCool".
 This should be written in Javascript and be able to run in the console.
 
 Recommended Time Allowance:  30 minutes
+
+## Files:
+zerocool.js
 
 Completed work can be delivered via Github (preferred), CodePen, compressed files or service of your choice. 
