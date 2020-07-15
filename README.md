@@ -6,7 +6,7 @@ Break the article design in the attached png file (HTML_CSS Quiz) into a functio
 
 Recommended Time Allowance:  2 hours or less
 ## Files:
-design.html
+design.html  
 css/style.css
 
 # Custom Javascript Widget
@@ -20,8 +20,8 @@ Design is up to you.  Creativity is encouraged.
 Recommended Time Allowance:  2 hours or less
 
 ## Files:
-widget.html
-css/widgetstyle.css
+widget.html  
+css/widgetstyle.css 
 js/widget.js
 
 # ZeroCool
