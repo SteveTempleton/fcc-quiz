@@ -1,7 +1,18 @@
+/* 
+TODO:
+Add more styling to widget sections 
+*/
 html,
 body {
+  height: 100%;
   width: 100%;
   font: 1em "Times New Roman", Times, serif;
+}
+
+.widget-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .widget {
