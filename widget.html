@@ -15,6 +15,7 @@
   <!-- Include Javascript -->
   <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/widget.js"></script>
 </head>
 
 <body>
@@ -23,16 +24,17 @@
   </header>
   <main>
     <!-- Main Content -->
-
-    <div class="widget" id="dialog0">
-    </div>
-    <div class="widget" id="dialog1">
-    </div>
-    <div class="widget" id="dialog2">
-    </div>
-    <div class="widget" id="dialog3">
-    </div>
-    <div class="widget" id="dialog4">
+    <div class="widget-container">
+      <div class="widget" id="dialog0">
+      </div>
+      <div class="widget" id="dialog1">
+      </div>
+      <div class="widget" id="dialog2">
+      </div>
+      <div class="widget" id="dialog3">
+      </div>
+      <div class="widget" id="dialog4">
+      </div>
     </div>
   </main>
   <!-- Footer Content -->
@@ -41,78 +43,3 @@
 </body>
 
 </html>
-
-<script>
-  /**
-   * TODO:
-   * Create a for loop to iterate over and create each story section.
-   * i = story number
-   * each dialog ID needs to be called.
-   * 
-   * for (i = 0; i < 5; i++) {
-   *    Replace numbers with i, add code from below
-   * }
-   * 
-   * Issues with iterating the loop. hard coding for now.
-   */
-
-  // for (i = 0; i < 5; i++) {
-  //   var newsStory = $("#dialog" + i + "");
-  //   console.log(newsStory);
-  //   $.getJSON("https://www.reddit.com/r/worldnews.json", function (newsGet) {
-  //     newsStory.html('<div class="title"><p> Title: ' + newsGet['data']['children'][i]['data']['title'] +
-  //       '</p></div>');
-  //     newsStory.append('<div><p> url: ' + newsGet['data']['children'][i]['data']['url'] + '</p></div>');
-  //     newsStory.append('<div><p> domain: ' + newsGet['data']['children'][i]['data']['domain'] +
-  //       '</p></div>');
-  //     newsStory.append('<div><p> Permalink: ' + newsGet['data']['children'][i]['data']['permalink'] +
-  //       '</p></div>');
-  //   });
-  // }
-
-  $.getJSON("https://www.reddit.com/r/worldnews.json", function (newsGet) {
-    $("#dialog0").html('<div class="title"><p> Title: ' + newsGet['data']['children'][0]['data']['title'] +
-      '</p></div>');
-    $("#dialog0").append('<div><p> URL: ' + newsGet['data']['children'][0]['data']['url'] + '</p></div>');
-    $("#dialog0").append('<div><p> Domain: ' + newsGet['data']['children'][0]['data']['domain'] +
-      '</p></div>');
-    $("#dialog0").append('<div><p> Permalink: ' + newsGet['data']['children'][0]['data']['permalink'] +
-      '</p></div>');
-  });
-  $.getJSON("https://www.reddit.com/r/worldnews.json", function (newsGet) {
-    $("#dialog1").html('<div class="title"><p> Title: ' + newsGet['data']['children'][1]['data']['title'] +
-      '</p></div>');
-    $("#dialog1").append('<div><p> url: ' + newsGet['data']['children'][1]['data']['url'] + '</p></div>');
-    $("#dialog1").append('<div><p> domain: ' + newsGet['data']['children'][1]['data']['domain'] +
-      '</p></div>');
-    $("#dialog1").append('<div><p> Permalink: ' + newsGet['data']['children'][1]['data']['permalink'] +
-      '</p></div>');
-  });
-  $.getJSON("https://www.reddit.com/r/worldnews.json", function (newsGet) {
-    $("#dialog2").html('<div class="title"><p> Title: ' + newsGet['data']['children'][2]['data']['title'] +
-      '</p></div>');
-    $("#dialog2").append('<div><p> url: ' + newsGet['data']['children'][2]['data']['url'] + '</p></div>');
-    $("#dialog2").append('<div><p> domain: ' + newsGet['data']['children'][2]['data']['domain'] +
-      '</p></div>');
-    $("#dialog2").append('<div><p> Permalink: ' + newsGet['data']['children'][2]['data']['permalink'] +
-      '</p></div>');
-  });
-  $.getJSON("https://www.reddit.com/r/worldnews.json", function (newsGet) {
-    $("#dialog3").html('<div class="title"><p> Title: ' + newsGet['data']['children'][3]['data']['title'] +
-      '</p></div>');
-    $("#dialog3").append('<div><p> url: ' + newsGet['data']['children'][3]['data']['url'] + '</p></div>');
-    $("#dialog3").append('<div><p> domain: ' + newsGet['data']['children'][3]['data']['domain'] +
-      '</p></div>');
-    $("#dialog3").append('<div><p> Permalink: ' + newsGet['data']['children'][3]['data']['permalink'] +
-      '</p></div>');
-  });
-  $.getJSON("https://www.reddit.com/r/worldnews.json", function (newsGet) {
-    $("#dialog4").html('<div class="title"><p> Title: ' + newsGet['data']['children'][4]['data']['title'] +
-      '</p></div>');
-    $("#dialog4").append('<div><p> url: ' + newsGet['data']['children'][4]['data']['url'] + '</p></div>');
-    $("#dialog4").append('<div><p> domain: ' + newsGet['data']['children'][4]['data']['domain'] +
-      '</p></div>');
-    $("#dialog4").append('<div><p> Permalink: ' + newsGet['data']['children'][4]['data']['permalink'] +
-      '</p></div>');
-  });
-</script>
