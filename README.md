@@ -21,7 +21,7 @@ Recommended Time Allowance:  2 hours or less
 
 ## Files:
 widget.html  
-css/widgetstyle.css 
+css/widgetstyle.css  
 js/widget.js
 
 # ZeroCool
