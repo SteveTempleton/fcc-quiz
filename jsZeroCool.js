@@ -4,6 +4,13 @@
  * For numbers which are multiples of both three and five print "ZeroCool".
  * This should be written in Javascript and be able to run in the console.
  */
+
+ /**
+  * for loop to iterate over all numbers from 1 to 100
+  * modulo to get whole number remainder, if equal to zero, print name, otherwise the number
+  * You must do the ZeroCool option first, then Zero or Cool next.
+  */
+
 for (i = 1; i < 101; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("ZeroCool")
